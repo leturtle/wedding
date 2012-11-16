@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="Lottery.css" type="text/css" />
+    <script type="text/javascript" src="resource/jquery.min.js"></script>
+    <script type="text/javascript" src="Lottery.js"></script>
+</head>
+<body>
+    <div class="row">
+    <div class="hero-unit">
+        <h1>Who will get the Wii?</h1>
+        <p>&nbsp;</p>
+        <p>
+            <a id="start-shuffle" class="btn btn-primary btn-large" href="javascript:void(0);">
+            Start shuffle
+            </a>
+        </p>
+    </div>
+    </div>
+    <div class="row">
+        <div id="brand" class="span3">
+            <ul class="thumbnails">
+                <li class="span3">
+                    <a href="javascript:void(0);" class="thumbnail brand-gl">
+                        <div class="shuffle"></div> 
+                    </a>
+                    <p></p>
+                    <button id="stop-brand" class="btn btn-large btn-block btn-success" type="button">Stop</button>
+                </li>
+            </ul>
+        </div>
+        <div id="suits" class="span3">
+            <ul class="thumbnails">
+                <li class="span3">
+                    <a href="javascript:void(0);" class="thumbnail suits-hearts">
+                        <div class="shuffle"></div> 
+                    </a>
+                    <p></p>
+                    <button id="stop-suits" class="btn btn-large btn-block btn-success" type="button">Stop</button>
+                </li>
+            </ul>
+        </div>
+        <div id="num" class="span3">
+            <ul class="thumbnails">
+                <li class="span3">
+                    <a href="javascript:void(0);" class="thumbnail">
+                        <div class="shuffle">A</div> 
+                    </a>
+                    <p></p>
+                    <button id="stop-num" class="btn btn-large btn-block btn-success" type="button">Stop</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
